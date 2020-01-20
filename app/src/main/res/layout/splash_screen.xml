@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        >
+
+        <ImageView
+            android:id="@+id/splash_img"
+            android:layout_width="55dp"
+            android:layout_height="47dp"
+            android:layout_gravity="center"
+            android:background="@drawable/splash_shape"
+            android:backgroundTint="#ffffff"
+            android:padding="8dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_iconfinder_12_waiter_resturant_serve_lunch_dinner_4308067">
+
+        </ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Restaurant"
+            android:textSize="15dp"
+            android:textStyle="italic"
+            android:id="@+id/splash_text"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

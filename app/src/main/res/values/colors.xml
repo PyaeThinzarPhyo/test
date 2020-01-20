@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ab47bc</color>
+    <color name="colorPrimaryDark">#df78ef</color>
+    <color name="colorAccent">#790e8b</color>
+    <color name="colorLight">#ee98fb</color>
+    <color name="mycolor">#ba68c8</color>
+    <color name="tharColor">#ffbd69</color>
+    <color name="gridColor">#ef5350</color>
+    <color name="gridColor1">#b61827</color>
+    <color name="gridColor2">#e91e63</color>
+    <color name="gridColor3">#ff5c8d</color>
+    <color name="gridColor4">#d81b60</color>
+    <color name="gridColer5">#a00037</color>
+</resources>

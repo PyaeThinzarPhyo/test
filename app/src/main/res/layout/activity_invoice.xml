@@ -1,0 +1,105 @@
+
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/my_drawer"
+    tools:context=".MainActivity">
+    <RelativeLayout
+        android:id="@+id/main_layout"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/Tablayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:tabMaxWidth="0dp"
+            app:tabGravity="fill"
+            android:background="@color/colorLight"
+            android:elevation="4dp"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/Viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@id/Tablayout"/>
+    </RelativeLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>
+<!--</RelativeLayout>-->
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    android:orientation="vertical"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent">-->
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:orientation="vertical">-->
+
+
+<!--  <LinearLayout-->
+<!--      android:layout_width="match_parent"-->
+<!--      android:layout_height="30dp"-->
+<!--      android:orientation="horizontal"-->
+<!--      android:layout_marginTop="5dp"-->
+<!--      android:weightSum="2"-->
+<!--      android:gravity="center"-->
+
+<!--      >-->
+
+<!--      <TextView-->
+<!--          android:background="@drawable/btn_shape"-->
+<!--          android:layout_width="0dp"-->
+<!--          android:layout_height="match_parent"-->
+<!--          android:layout_weight="1"-->
+<!--          android:text="DineIn"-->
+<!--          android:id="@+id/Dine_In"-->
+<!--          android:textAlignment="center"-->
+<!--          android:textSize="15dp"-->
+<!--          android:textStyle="bold"-->
+<!--          android:padding="5dp"-->
+<!--          android:layout_marginLeft="30dp"-->
+<!--          android:layout_marginRight="30dp"-->
+<!--          android:backgroundTint="#b3e5fc"-->
+<!--          >-->
+<!--      </TextView>-->
+<!--      <TextView-->
+<!--          android:background="@drawable/btn_shape"-->
+<!--          android:layout_width="0dp"-->
+<!--          android:layout_weight="1"-->
+<!--          android:layout_height="match_parent"-->
+<!--          android:text="TakeAway"-->
+<!--          android:textAlignment="center"-->
+<!--          android:textSize="15dp"-->
+<!--          android:textStyle="bold"-->
+<!--          android:id="@+id/Take_Away"-->
+<!--          android:padding="5dp"-->
+<!--          android:layout_marginLeft="30dp"-->
+<!--          android:layout_marginRight="30dp"-->
+<!--          android:backgroundTint="#b3e5fc"-->
+
+<!--          >-->
+<!--      </TextView>-->
+<!--  </LinearLayout>-->
+<!--        <LinearLayout-->
+<!--            android:layout_marginTop="5dp"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content">-->
+<!--        <androidx.recyclerview.widget.RecyclerView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:id="@+id/dine_in_recyclerview"-->
+<!--            />-->
+<!--        </LinearLayout>-->
+
+<!--    </LinearLayout>-->
+<!--</LinearLayout>-->

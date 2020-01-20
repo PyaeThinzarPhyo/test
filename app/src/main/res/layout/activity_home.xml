@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:layout_centerInParent="true"
+    >
+    <Button
+        android:id="@+id/dine_in"
+        android:text="Dine In"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:layout_width="200dp"
+        android:background="@drawable/btn_shape"
+        android:layout_height="wrap_content">
+
+    </Button>
+    <Button
+        android:id="@+id/take_away"
+        android:text="Take Away"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:layout_width="200dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_shape"
+        android:layout_height="wrap_content">
+
+    </Button>
+    <Button
+        android:id="@+id/invoice"
+        android:text="Invoice"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:layout_width="200dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_shape"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+
+</LinearLayout>

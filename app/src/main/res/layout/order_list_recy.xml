@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:weightSum="4"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_marginTop="2dp"
+                android:textSize="15dp"
+                android:layout_marginLeft="40dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:padding="13dp"
+                android:id="@+id/tv_dialog_invoice"
+                />
+            <TextView
+                android:layout_marginTop="2dp"
+                android:textSize="15dp"
+                android:layout_marginLeft="40dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:padding="13dp"
+                android:id="@+id/tv_dialog_floor"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:textColor="#ffffff"
+                android:id="@+id/tv_dialog_table"
+               />
+
+            <TextView
+                android:id="@+id/tv_dialog_date"
+                android:layout_width="101dp"
+                android:layout_height="49dp"
+                android:layout_weight="1"
+                android:textColor="#ffffff"
+                android:textSize="15dp"
+                android:textStyle="bold"
+
+                />
+
+            <ImageView
+                android:padding="13dp"
+                android:id="@+id/order_list_remove"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_remove_circle_outline_black_24dp"
+                >
+            </ImageView>
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:id="@+id/tv_dialog_time"
+            android:text="Time :"
+            android:textSize="15dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="4"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Item"
+                android:textSize="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Qty"
+                android:layout_weight="1"
+                android:layout_marginLeft="35dp"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Price"
+                android:layout_weight="1"
+                android:layout_marginLeft="35dp"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Status"
+                android:id="@+id/status"
+                android:layout_weight="1"
+                android:textSize="15dp"
+                android:layout_marginLeft="40dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/alert_recycler"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="5">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4">
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <TextView
+                    android:layout_marginTop="25dp"
+                    android:layout_marginBottom="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:id="@+id/tv_total_order"
+                    android:text="Total:"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+
